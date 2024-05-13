@@ -5,7 +5,7 @@ import { RouterView } from "vue-router";
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="#">MemeGalery</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -26,6 +26,14 @@ import { RouterView } from "vue-router";
           <li class="nav-item">
             <!-- <a class="nav-link" href="#">Link</a> -->
             <router-link class="nav-link" to="/adatok">Valamik</router-link>
+          </li>
+          <li class="nav-item">
+            <!-- <a class="nav-link" href="#">Link</a> -->
+            <router-link class="nav-link" to="/registration">Registration</router-link>
+          </li>
+          <li class="nav-item">
+            <!-- <a class="nav-link" href="#">Link</a> -->
+            <router-link class="nav-link" to="/login">Login</router-link>
           </li>
         </ul>
       </div>
